@@ -11,11 +11,10 @@ double EarthandRope() {
 
 double Swimmingpool() {
     double roadWidth = 1;
-    double poolRadius = 3;
+    double poolRadi = 3;
     double concrete = 1000;
     double fence = 2000;
-    return (Circle(poolRadius).getArea()-
-    Circle(poolRadius+roadWidth).getArea()
-    )*concrete + Circle(poolRadius+roadWidth).getFerence()*fence;
+    return (Circle(poolRadi).getArea()-Circle(poolRadi+roadWidth).getArea())
+    *concrete + Circle(poolRadi+roadWidth).getFerence()*fence;
 }
 

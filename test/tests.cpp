@@ -1,12 +1,12 @@
 // Copyright 2025 UNN-CS Team
 #define _USE_MATH_DEFINES
+
+#include <cmath>
+#include <cstdint>
 #include "tasks.h"
 #include <gtest/gtest.h>
 
 #include "circle.h"
-#include <cmath>
-#include <cstdint>
-
 TEST(st2_strakhov, getRadius1) {
     Circle c(1);
     EXPECT_EQ(c.getRadius(), 1);
@@ -45,17 +45,17 @@ TEST(st2_strakhov, getArea3) {
 }
 TEST(st2_strakhov, setRadius1) {
     Circle c(1);
-    c.setRadius(2)
+    c.setRadius(2);
     EXPECT_EQ(c.getRadius(), 2);
 }
 TEST(st2_strakhov, setRadius3) {
     Circle c(1);
-    c.setRadius(3)
+    c.setRadius(3);
     EXPECT_EQ(c.getRadius(), 3);
 }
 TEST(st2_strakhov, setRadius4) {
     Circle c(1);
-    c.setRadius(4)
+    c.setRadius(4);
     EXPECT_EQ(c.getRadius(), 4);
 }
 TEST(st2_strakhov, setFerence2) {
@@ -75,17 +75,17 @@ TEST(st2_strakhov, setFerence4) {
 }
 TEST(st2_strakhov, setArea2) {
     Circle c(1);
-    c.setArea(2)
+    c.setArea(2);
     EXPECT_EQ(c.getArea(), 2);
 }
 TEST(st2_strakhov, setArea3) {
     Circle c(1);
-    c.setArea(3)
+    c.setArea(3);
     EXPECT_EQ(c.getArea(), 3);
 }
 TEST(st2_strakhov, setArea4) {
     Circle c(1);
-    c.setArea(4)
+    c.setArea(4);
     EXPECT_EQ(c.getArea(), 4);
 }
 TEST(st2_strakhov, EarthandRopeTest) {
