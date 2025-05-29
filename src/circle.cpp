@@ -1,9 +1,15 @@
 // Copyright 2022 UNN-CS
 #define _USE_MATH_DEFINES
-#include <cstdint>
 #include "circle.h"
+#include <cstdint>
 #include <cmath>
 
+
+Circle::Circle(double radius) {
+    this->radius = radius;
+    this->ference = 2 * M_PI * radius;
+    this->area = M_PI * pow(radius,2);
+}
 bool Circle::setRadius(double radius) {
     this->radius = radius;
     this->ference = 2*M_PI *radius;
