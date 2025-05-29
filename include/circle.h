@@ -2,6 +2,18 @@
 #ifndef INCLUDE_CIRCLE_H_
 #define INCLUDE_CIRCLE_H_
 #include <cstdint>
-
+class Circle {
+ public:
+    bool setRadius(double radius);
+    bool setFerence(double ference);
+    bool setArea(double area);
+    double getRadius();
+    double getFerence();
+    double getArea();
+private:
+    double radius;
+    double ference;
+    double area;
+};
 
 #endif  // INCLUDE_CIRCLE_H_
