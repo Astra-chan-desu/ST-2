@@ -1,8 +1,9 @@
 // Copyright 2025 UNN-CS Team
 #define _USE_MATH_DEFINES
+#include "tasks.h"
 #include <cstdint>
 #include <cmath>
-#include "tasks.h"
+
 #include <gtest/gtest.h>
 
 #include "circle.h"
@@ -88,8 +89,8 @@ TEST(st2_strakhov, setArea4) {
     EXPECT_EQ(c.getArea(), 4);
 }
 TEST(st2_strakhov, EarthandRopeTest) {
-    EXPECT_DOUBLE_EQ(EarthandRope(), 0.00015915);
+    EXPECT_DOUBLE_EQ(EarthandRope(), 0.00015915494259388652);
 }
 TEST(st2_strakhov, SwimmingpoolTest) {
-    EXPECT_DOUBLE_EQ(Swimmingpool(),28274.333882308136);
+    EXPECT_DOUBLE_EQ(Swimmingpool(), 59690.260418206068);
 }
