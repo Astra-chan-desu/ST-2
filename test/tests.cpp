@@ -1,13 +1,12 @@
 // Copyright 2025 UNN-CS Team
 #define _USE_MATH_DEFINES
-#include "tasks.h"
 #include <gtest/gtest.h>
 #include <cstdint>
 #include <cmath>
-
-
-
 #include "circle.h"
+#include "tasks.h"
+
+
 TEST(st2_strakhov, getRadius1) {
     Circle c(1);
     EXPECT_EQ(c.getRadius(), 1);
