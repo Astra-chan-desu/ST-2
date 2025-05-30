@@ -1,10 +1,11 @@
 // Copyright 2025 UNN-CS Team
 #define _USE_MATH_DEFINES
 #include "tasks.h"
+#include <gtest/gtest.h>
 #include <cstdint>
 #include <cmath>
 
-#include <gtest/gtest.h>
+
 
 #include "circle.h"
 TEST(st2_strakhov, getRadius1) {
